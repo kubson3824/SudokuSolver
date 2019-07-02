@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rozwiązywacz Sudoku</string>
+    <string name="solve_button">Rozwiąż</string>
+    <string name="solution_text">Rozwiązanie</string>
+    <string name="user_text">Użytkownik</string>
+    <string name="board_text">Plansza</string>
+    <string name="unsolvable_string">Nierozwiązywalna plansza</string>
+    <string name="no_puzzle_string">Brak planszy</string>
+    <string name="fileSelectionText">Wybierz plik</string>
+    <string name="clearedBoardText">Plansza została wyczyszczona!</string>
+    <string name="loadingvalues_text">Ładowanie wartości</string>
+    <string name="finished_loading">Koniec!</string>
+    <string name="loadedHistoryValues">Załadowano wartości z historii</string>
+    <string name="historyClearedText">Historia została usunięta</string>
+    <string name="solvingText">Rozwiązywanie..</string>
+    <string name="finishedSolvingText">Zakończono rozwiązywanie!</string>
+</resources>

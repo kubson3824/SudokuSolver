@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.BoardFragment">
+
+
+    <GridView
+        android:id="@+id/sudokuGrid"
+        style="@style/gridStyle"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </GridView>
+
+    <TextView
+        android:id="@+id/progressText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:divider="@drawable/empty_tall_divider"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:showDividers="middle">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/cameraButton"
+            style="@style/buttonStyle"
+            android:layout_marginStart="@dimen/minSpacing"
+            android:src="@android:drawable/ic_menu_camera" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/galleryButton"
+            style="@style/buttonStyle"
+            android:src="@android:drawable/ic_menu_gallery" />
+
+        <Button
+            android:id="@+id/button"
+            style="@style/buttonStyle"
+            android:layout_marginEnd="16dp"
+            android:text="@string/solve_button" />
+
+    </LinearLayout>
+
+</LinearLayout>

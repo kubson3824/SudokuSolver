@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sudoku Löser</string>
+    <string name="solve_button">Löse</string>
+    <string name="solution_text">Lösung</string>
+    <string name="user_text">Nutzer</string>
+    <string name="board_text">Brett</string>
+    <string name="no_puzzle_string">Kein Rätsel</string>
+    <string name="unsolvable_string">Unlösbares Puzzle</string>
+    <string name="finished_loading">Fertig!</string>
+    <string name="loadingvalues_text">Werte laden..</string>
+    <string name="clearedBoardText">Das Brett wurde gelöscht!</string>
+    <string name="fileSelectionText">Wählen Sie eine Datei aus</string>
+    <string name="loadedHistoryValues">Werte wurden aus der Historie geladen</string>
+    <string name="historyClearedText">Die Geschichte wurde gelöscht</string>
+    <string name="solvingText">Lösen..</string>
+    <string name="finishedSolvingText">Fertigstellung!</string>
+</resources>

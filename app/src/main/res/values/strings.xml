@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sudoku Solver</string>
+    <string name="solve_button">Solve</string>
+    <string name="solution_text">Solution</string>
+    <string name="user_text">User</string>
+    <string name="board_text">Board</string>
+    <string name="unsolvable_string">Unsolvable puzzle</string>
+    <string name="no_puzzle_string">No puzzle</string>
+    <string name="finished_loading">Finished!</string>
+    <string name="loadingvalues_text">Loading values..</string>
+    <string name="clearedBoardText">Board has been cleared!</string>
+    <string name="fileSelectionText">Select a file</string>
+    <string name="loadedHistoryValues">Values have been loaded from history</string>
+    <string name="historyClearedText">History has been cleared</string>
+    <string name="solvingText">Solving..</string>
+    <string name="finishedSolvingText">Finished solving!</string>
+</resources>
